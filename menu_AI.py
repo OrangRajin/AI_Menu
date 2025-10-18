@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage, SytemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 #  KONFIGURASI TAMPILAN 
@@ -120,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
